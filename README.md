@@ -32,3 +32,12 @@ Ensure you have the following dependencies installed:
 Install dependencies:
 ```bash
 pip install ultralytics opencv-python-headless
+```
+## Results
+The model performs with a high level of accuracy, achieving an mPA of 0.87, successfully identifying empty shelves in real-world conditions.
+
+## Future Work
+Possible improvements include:
+- Extending the model to detect low-stock levels, not just fully empty spaces.
+- Optimizing real-time performance for deployment on edge devices (e.g., Raspberry Pi).
+- Expanding the dataset with more challenging environments and variations.

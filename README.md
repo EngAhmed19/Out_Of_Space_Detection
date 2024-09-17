@@ -15,7 +15,7 @@ The dataset used contains 2,697 images of supermarket shelves, both empty and st
 - **Optimization**: Standard YOLOv8 optimization techniques were applied, including early stopping and data augmentation.
 
 ### Performance Metrics
-- **Mean per-class accuracy (mPA)**: 0.87
+- **Mean Avarage Percesion (mAP)**: 0.87
 
 ## Real-Time Detection
 The real-time detection is implemented using **OpenCV** to process live video feeds and detect empty shelf spaces. The model runs inference on each video frame, highlighting areas where stock is missing. This system could be deployed with surveillance cameras in supermarkets for real-time monitoring.
@@ -34,7 +34,7 @@ Install dependencies:
 pip install ultralytics opencv-python-headless
 ```
 ## Results
-The model performs with a high level of accuracy, achieving an mPA of 0.87, successfully identifying empty shelves in real-world conditions.
+The model performs with a high level of accuracy, achieving an mAP of 0.87, successfully identifying empty shelves in real-world conditions.
 
 ## Future Work
 Possible improvements include:

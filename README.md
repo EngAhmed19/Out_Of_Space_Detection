@@ -23,6 +23,8 @@ The real-time detection is implemented using **OpenCV** to process live video fe
 ## Results
 The model performs with a high level of accuracy, achieving an mAP of 0.87, successfully identifying empty shelves in real-world conditions.
 
+![Image Detection](image_url)
+
 ## Future Work
 Possible improvements include:
 - Extending the model to detect low-stock levels, not just fully empty spaces.
